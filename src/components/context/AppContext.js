@@ -23,7 +23,7 @@ function reducer(state,action){
                 if(item.id!==action.payload)
                     return item;
                     else{
-                        return true
+                        return false
                     }
             });
             console.log('new expenses is',newState2);
